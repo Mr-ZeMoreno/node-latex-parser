@@ -105,5 +105,13 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "pnpm@9.12.0"
+  "packageManager": "pnpm@9.12.0",
+  "optionalDependencies": {
+    "@Mr-ZeMoreno/latex-parser-darwin-x64": "1.0.2",
+    "@Mr-ZeMoreno/latex-parser-darwin-arm64": "1.0.2",
+    "@Mr-ZeMoreno/latex-parser-linux-x64-gnu": "1.0.2",
+    "@Mr-ZeMoreno/latex-parser-linux-x64-musl": "1.0.2",
+    "@Mr-ZeMoreno/latex-parser-linux-arm64-gnu": "1.0.2",
+    "@Mr-ZeMoreno/latex-parser-linux-arm64-musl": "1.0.2"
+  }
 }
