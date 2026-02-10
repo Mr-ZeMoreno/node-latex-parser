@@ -1,6 +1,6 @@
 {
   "name": "@Mr-ZeMoreno/latex-parser",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Rust based parser for latex equations",
   "main": "index.js",
   "repository": {
