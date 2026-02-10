@@ -105,13 +105,5 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "optionalDependencies": {
-    "latex-parser-darwin-x64": "1.0.0",
-    "latex-parser-darwin-arm64": "1.0.0",
-    "latex-parser-linux-x64-gnu": "1.0.0",
-    "latex-parser-linux-x64-musl": "1.0.0",
-    "latex-parser-linux-arm64-gnu": "1.0.0",
-    "latex-parser-linux-arm64-musl": "1.0.0"
-  },
   "packageManager": "pnpm@9.12.0"
 }
