@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/napi-rs/package-template.git"
+    "url": "git+ssh://git@github.com/napi-rs/package-template-pnpm.git"
   },
   "license": "MIT",
   "browser": "browser.js",
@@ -25,18 +25,28 @@
   "napi": {
     "binaryName": "latex-parser",
     "targets": [
-      "x86_64-pc-windows-msvc",
       "x86_64-apple-darwin",
+      "aarch64-apple-darwin",
       "x86_64-unknown-linux-gnu",
-      "aarch64-apple-darwin"
+      "x86_64-pc-windows-msvc",
+      "x86_64-unknown-linux-musl",
+      "aarch64-unknown-linux-gnu",
+      "i686-pc-windows-msvc",
+      "armv7-unknown-linux-gnueabihf",
+      "aarch64-linux-android",
+      "x86_64-unknown-freebsd",
+      "aarch64-unknown-linux-musl",
+      "aarch64-pc-windows-msvc",
+      "armv7-linux-androideabi",
+      "wasm32-wasi-preview1-threads"
     ]
   },
   "engines": {
     "node": ">= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
   },
   "scripts": {
     "artifacts": "napi artifacts",
@@ -102,5 +112,21 @@
     "trailingComma": "all",
     "singleQuote": true,
     "arrowParens": "always"
+  },
+  "optionalDependencies": {
+    "latex-parser-darwin-x64": "1.0.0",
+    "latex-parser-darwin-arm64": "1.0.0",
+    "latex-parser-linux-x64-gnu": "1.0.0",
+    "latex-parser-win32-x64-msvc": "1.0.0",
+    "latex-parser-linux-x64-musl": "1.0.0",
+    "latex-parser-linux-arm64-gnu": "1.0.0",
+    "latex-parser-win32-ia32-msvc": "1.0.0",
+    "latex-parser-linux-arm-gnueabihf": "1.0.0",
+    "latex-parser-android-arm64": "1.0.0",
+    "latex-parser-freebsd-x64": "1.0.0",
+    "latex-parser-linux-arm64-musl": "1.0.0",
+    "latex-parser-win32-arm64-msvc": "1.0.0",
+    "latex-parser-android-arm-eabi": "1.0.0",
+    "latex-parser-wasm32-wasi": "1.0.0"
   }
 }
