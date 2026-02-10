@@ -1,5 +1,5 @@
 {
-  "name": "latex-parser",
+  "name": "@Mr-ZeMoreno/latex-parser",
   "version": "1.0.0",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
@@ -24,6 +24,7 @@
   ],
   "napi": {
     "binaryName": "latex-parser",
+    "packageName": "@Mr-ZeMoreno/latex-parser",
     "targets": [
       "x86_64-apple-darwin",
       "aarch64-apple-darwin",
@@ -38,7 +39,7 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
     "artifacts": "napi artifacts",
