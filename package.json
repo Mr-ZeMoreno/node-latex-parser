@@ -128,5 +128,6 @@
     "latex-parser-win32-arm64-msvc": "1.0.0",
     "latex-parser-android-arm-eabi": "1.0.0",
     "latex-parser-wasm32-wasi": "1.0.0"
-  }
+  },
+  "packageManager": "pnpm@9.12.0"
 }
