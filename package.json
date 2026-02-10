@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/napi-rs/package-template-pnpm.git"
+    "url": "git+ssh://git@github.com/Mr-ZeMoreno/node-latex-parser.git"
   },
   "license": "MIT",
   "browser": "browser.js",
@@ -28,21 +28,13 @@
       "x86_64-apple-darwin",
       "aarch64-apple-darwin",
       "x86_64-unknown-linux-gnu",
-      "x86_64-pc-windows-msvc",
       "x86_64-unknown-linux-musl",
       "aarch64-unknown-linux-gnu",
-      "i686-pc-windows-msvc",
-      "armv7-unknown-linux-gnueabihf",
-      "aarch64-linux-android",
-      "x86_64-unknown-freebsd",
-      "aarch64-unknown-linux-musl",
-      "aarch64-pc-windows-msvc",
-      "armv7-linux-androideabi",
-      "wasm32-wasi-preview1-threads"
+      "aarch64-unknown-linux-musl"
     ]
   },
   "engines": {
-    "node": ">= 12.22.0 < 13 || >= 14.17.0 < 15 || >= 15.12.0 < 16 || >= 16.0.0"
+    "node": ">=18"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
@@ -65,21 +57,21 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@emnapi/core": "^1.5.0",
-    "@emnapi/runtime": "^1.5.0",
-    "@napi-rs/cli": "^3.2.0",
-    "@oxc-node/core": "^0.0.35",
-    "@taplo/cli": "^0.7.0",
-    "@tybys/wasm-util": "^0.10.0",
-    "ava": "^6.4.1",
-    "chalk": "^5.6.2",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.1.6",
-    "npm-run-all2": "^8.0.4",
-    "oxlint": "^1.14.0",
-    "prettier": "^3.6.2",
-    "tinybench": "^6.0.0",
-    "typescript": "^5.9.2"
+    "@emnapi/core": "1.5.0",
+    "@emnapi/runtime": "1.5.0",
+    "@napi-rs/cli": "3.2.0",
+    "@oxc-node/core": "0.0.35",
+    "@taplo/cli": "0.7.0",
+    "@tybys/wasm-util": "0.10.0",
+    "ava": "6.4.1",
+    "chalk": "5.6.2",
+    "husky": "9.1.7",
+    "lint-staged": "16.1.6",
+    "npm-run-all2": "8.0.4",
+    "oxlint": "1.14.0",
+    "prettier": "3.6.2",
+    "tinybench": "6.0.0",
+    "typescript": "5.9.2"
   },
   "lint-staged": {
     "*.@(js|ts|tsx)": [
@@ -117,17 +109,9 @@
     "latex-parser-darwin-x64": "1.0.0",
     "latex-parser-darwin-arm64": "1.0.0",
     "latex-parser-linux-x64-gnu": "1.0.0",
-    "latex-parser-win32-x64-msvc": "1.0.0",
     "latex-parser-linux-x64-musl": "1.0.0",
     "latex-parser-linux-arm64-gnu": "1.0.0",
-    "latex-parser-win32-ia32-msvc": "1.0.0",
-    "latex-parser-linux-arm-gnueabihf": "1.0.0",
-    "latex-parser-android-arm64": "1.0.0",
-    "latex-parser-freebsd-x64": "1.0.0",
-    "latex-parser-linux-arm64-musl": "1.0.0",
-    "latex-parser-win32-arm64-msvc": "1.0.0",
-    "latex-parser-android-arm-eabi": "1.0.0",
-    "latex-parser-wasm32-wasi": "1.0.0"
+    "latex-parser-linux-arm64-musl": "1.0.0"
   },
   "packageManager": "pnpm@9.12.0"
 }
